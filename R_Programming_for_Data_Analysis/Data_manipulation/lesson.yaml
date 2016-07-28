@@ -1,0 +1,49 @@
+- Class: meta
+  Course: R Programming for Data Analysis
+  Lesson: Data manipulation
+  Author: your name goes here
+  Type: Standard
+  Organization: your organization's name goes here
+  Version: 2.4.2
+
+- Class: script
+  Output: "I just opened an R script for you. Follow the instructions in the script comments.\n\nWhen you are ready to move on, save the script and type submit(), or type reset() to reset the script to its original state."
+  AnswerTests: script_results_identical('wc_1')
+  Hint: Follow the directions in the script comments very carefully. If R gave you an error above, try to understand what it is telling you. If you get stuck, type reset() to start with a fresh script, then save the script and type submit() when you are ready.
+  Script: step_1_wc.R
+  
+- Class: script
+  Output: "You will continue to build on the data cleaning from the last question. I opened an R script with you with the previous question completed. Follow the instructions in the script comments.\n\nWhen you are ready to move on, save the script and type submit(), or type reset() to reset the script to its original state."
+  AnswerTests: script_results_identical('wc_2')
+  Hint: Follow the directions in the script comments very carefully. If R gave you an error above, try to understand what it is telling you. If you get stuck, type reset() to start with a fresh script, then save the script and type submit() when you are ready.
+  Script: step_2_wc.R
+  
+- Class: script
+  Output: "You will continue to build on the data cleaning from the last question. I opened an R script with you with the previous question completed. Follow the instructions in the script comments.\n\nWhen you are ready to move on, save the script and type submit(), or type reset() to reset the script to its original state."
+  AnswerTests: script_results_identical('wc_3')
+  Hint: Follow the directions in the script comments very carefully. If R gave you an error above, try to understand what it is telling you. If you get stuck, type reset() to start with a fresh script, then save the script and type submit() when you are ready.
+  Script: step_3_wc.R
+  
+- Class: script
+  Output: "I just opened an R script for you. Follow the instructions in the script comments.\n\nWhen you are ready to move on, save the script and type submit(), or type reset() to reset the script to its original state."
+  AnswerTests: script_results_identical('titanic_1')
+  Hint: Follow the directions in the script comments very carefully. If R gave you an error above, try to understand what it is telling you. If you get stuck, type reset() to start with a fresh script, then save the script and type submit() when you are ready.
+  Script: step_1_titanic.R
+  
+- Class: script
+  Output: "Now you will build on the data cleaning from the last question. I opened an R script with you with the previous question completed. Follow the instructions in the script comments.\n\nWhen you are ready to move on, save the script and type submit(), or type reset() to reset the script to its original state."
+  AnswerTests: script_results_identical('titanic_2')
+  Hint: Follow the directions in the script comments very carefully. If R gave you an error above, try to understand what it is telling you. If you get stuck, type reset() to start with a fresh script, then save the script and type submit() when you are ready.
+  Script: step_2_titanic.R
+
+- Class: script
+  Output: "You will continue to build on the data cleaning from the last question. I opened an R script with you with the previous question completed. Follow the instructions in the script comments.\n\nWhen you are ready to move on, save the script and type submit(), or type reset() to reset the script to its original state."
+  AnswerTests: script_results_identical('titanic_3')
+  Hint: Follow the directions in the script comments very carefully. If R gave you an error above, try to understand what it is telling you. If you get stuck, type reset() to start with a fresh script, then save the script and type submit() when you are ready.
+  Script: step_3_titanic.R
+  
+- Class: script
+  Output: "You will continue to build on the data cleaning from the last question. I opened an R script with you with the previous question completed. Follow the instructions in the script comments.\n\nWhen you are ready to move on, save the script and type submit(), or type reset() to reset the script to its original state."
+  AnswerTests: script_results_identical('titanic_4')
+  Hint: Follow the directions in the script comments very carefully. If R gave you an error above, try to understand what it is telling you. If you get stuck, type reset() to start with a fresh script, then save the script and type submit() when you are ready.
+  Script: step_4_titanic.R
