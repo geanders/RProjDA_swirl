@@ -18,11 +18,11 @@
 ## Pclass   agecat    Sex      N     survivors   perc_survived
 ## <int>   <fctr>    <chr>   <int>     <int>         <dbl>
 ##   1    Under 15  female     2         1         50.00000
-##   2    Under 15    male     3         3        100.00000
-##   3    15 to 50  female    68        67         98.52941
-##   4    15 to 50    male    69        31         44.92754
-##   5    Over 50   female    15        14         93.33333
-##   6    Over 50     male    29         6         20.68966
+##   1    Under 15    male     3         3        100.00000
+##   1    15 to 50  female    68        67         98.52941
+##   1    15 to 50    male    69        31         44.92754
+##   1    Over 50   female    15        14         93.33333
+##   1    Over 50     male    29         6         20.68966
 
 titanic_4 <- titanic %>% 
   select(Survived, Pclass, Age, Sex) %>%
