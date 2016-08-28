@@ -1,9 +1,9 @@
 - Class: meta
   Course: R Programming for Data Analysis
   Lesson: Data manipulation
-  Author: your name goes here
+  Author: Brooke Anderson, Sean Kross, Roger Peng
   Type: Standard
-  Organization: your organization's name goes here
+  Organization: Colorado State University, Johns Hopkins Bloomberg School of Public Health
   Version: 2.4.2
 
 - Class: script
