@@ -5,7 +5,7 @@
 ##   208.8639 84.52101 4.191597 0.6672269
 #
 # Now add a `dplyr` or `tidyr` function to the pipe chain in the 
-# code at the bottom of this script so that `wc_3` data frame looks 
+# code at the bottom of this script so that the `wc_3` data frame looks 
 # like this, with variable names in one column and the mean value
 # of each variable in another column: 
 #

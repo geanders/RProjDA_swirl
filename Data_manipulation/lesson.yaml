@@ -65,25 +65,101 @@
   Script: step_3_wc.R
   
 - Class: script
-  Output: "I just opened an R script for you.  A data frame called `titanic` has been loaded into your R workspace. In this problem, you need to write code using `dplyr` or `tidyr` functions to subset that data frame to four specific columns. The script comments include an example of what the data should look like when you're done.\n\nWhen you are ready to move on, save the script and type submit(), or type reset() to reset the script to its original state."
+  Output: In this question, you will continue to build on the 
+    data cleaning in the last three questions. I opened a
+    new R script for you with the previous steps completed. As a next 
+    step, you now round the mean values to one decimal point.
+    To do this, add a function from `dplyr` or `tidyr`
+    to the pipe chain in the script. Your goal is to re-create the 
+    example output shown in the comments of the script. When you are 
+    ready to submit your script, save the script and type `submit()`,
+    or type `reset()` to reset the script to its original state.
+  AnswerTests: script_results_identical('wc_4')
+  Hint: Check the example output in the comments of the script I 
+    opened for you. You may find the `round` function useful. 
+    Try running your code in the console and printing out the result 
+    to determine whether it's successfully generating the desired 
+    final data frame before you submit it.
+  Script: step_4_wc.R
+  
+- Class: script
+  Output: In this question, we'll be doing similar data cleaning with 
+    a new dataset. I have loaded a dataset called `titanic` for you. 
+    For this question, you need to subset the original dataframe
+    down to four columns. Your goal is to re-create the example 
+    output shown in the comments of the script by adding a `dplyr` or
+    `tidyr` function to the pipe chain.  When you are ready to 
+    submit your script, save the script and type `submit()`, or 
+    type `reset()` to reset the script to its original state. 
   AnswerTests: script_results_identical('titanic_1')
-  Hint: Follow the directions in the script comments very carefully. If R gave you an error above, try to understand what it is telling you. If you get stuck, type reset() to start with a fresh script, then save the script and type submit() when you are ready.
+  Hint: Check the example output in the comments of the script I 
+    opened for you. Make sure you are selecting just the four 
+    columns shown in this example output. Try running your code in 
+    the console and printing out the result to determine whether 
+    it's successfully generating the desired final data 
+    frame before you submit it.
   Script: step_1_titanic.R
   
 - Class: script
-  Output: "Now you will build on the data cleaning from the last question. I opened an R script with you with the previous question completed. Follow the instructions in the script comments.\n\nWhen you are ready to move on, save the script and type submit(), or type reset() to reset the script to its original state."
+  Output: In this question, you will continue to build on the data 
+    cleaning you started in  the last question. I opened a new R 
+    script for you with the previous question completed. As a next 
+    step, you now need to remove any observations that are missing 
+    a value for Age. To do this, add a 
+    function from `dplyr` or `tidyr` to the pipe chain in the script.
+    Your goal is to re-create the example output shown in the 
+    comments of the script. When you are ready to submit your script,
+    save the script and type `submit()`, or type `reset()` to reset 
+    the script to its original state.
   AnswerTests: script_results_identical('titanic_2')
-  Hint: Follow the directions in the script comments very carefully. If R gave you an error above, try to understand what it is telling you. If you get stuck, type reset() to start with a fresh script, then save the script and type submit() when you are ready.
+  Hint: Check the example output in the comments of the script I 
+    opened for you. Make sure you are filtering down to just those 
+    observations where the Age variable is not NA. Try running your 
+    code in the console and printing out the result to determine 
+    whether it's successfully generating the desired final data 
+    frame before you submit it.
   Script: step_2_titanic.R
 
 - Class: script
-  Output: "You will continue to build on the data cleaning from the last question. I opened an R script with you with the previous question completed. Follow the instructions in the script comments.\n\nWhen you are ready to move on, save the script and type submit(), or type reset() to reset the script to its original state."
+  Output: In this question, you will again continue to build on the 
+    data cleaning you started in the last two questions. I opened a
+    new R script for you with the previous steps completed. As a next 
+    step, you now need to create a new column called agecat that
+    divides a person's age into three broad categories (Under 15,
+    15 to 50, Over 50). To do this, add a function from `dplyr` or 
+    `tidyr` to the pipe chain in the script. Your goal is to 
+    re-create the example output shown in the comments of the script.
+    When you are ready to submit your script, save the script and 
+    type `submit()`, or type `reset()` to reset the script to its 
+    original state.
   AnswerTests: script_results_identical('titanic_3')
-  Hint: Follow the directions in the script comments very carefully. If R gave you an error above, try to understand what it is telling you. If you get stuck, type reset() to start with a fresh script, then save the script and type submit() when you are ready.
+  Hint: Check the example output in the comments of the script I 
+    opened for you. The `cut` function is useful for this question--
+    be sure to check its help file. Make sure you understand how 
+    `cut` handles ages right at the cutpoints (e.g., 15 and 50). 
+    Try running your code in the console and printing out the result
+    to determine whether it's successfully generating the desired 
+    final data frame before you submit it.
   Script: step_3_titanic.R
   
 - Class: script
-  Output: "You will continue to build on the data cleaning from the last question. I opened an R script with you with the previous question completed. Follow the instructions in the script comments.\n\nWhen you are ready to move on, save the script and type submit(), or type reset() to reset the script to its original state."
+  Output: In this question, you will continue to build on the 
+    data cleaning you from the last three questions. I opened a
+    new R script for you with the previous steps completed. As a next 
+    step, you now need to generate a data frame with the number of
+    passengers, number of survivors, and percent survival stratified
+    by passenger class, age category, and sex. 
+    To do this, add one or more functions from `dplyr` or 
+    `tidyr` to the pipe chain in the script. Your goal is to 
+    re-create the example output shown in the comments of the script.
+    When you are ready to submit your script, save the script and 
+    type `submit()`, or type `reset()` to reset the script to its 
+    original state.
   AnswerTests: script_results_identical('titanic_4')
-  Hint: Follow the directions in the script comments very carefully. If R gave you an error above, try to understand what it is telling you. If you get stuck, type reset() to start with a fresh script, then save the script and type submit() when you are ready.
+  Hint: Check the example output in the comments of the script I 
+    opened for you. Make sure the columns in your output are in the
+    same order as shown in the example output in the script comments.
+    Try running your code in the console and printing out the result
+    to determine whether it's successfully generating the desired 
+    final data frame before you submit it.
   Script: step_4_titanic.R

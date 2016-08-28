@@ -30,9 +30,9 @@
 titanic_4 <- titanic %>% 
   select(Survived, Pclass, Age, Sex) %>%
   filter(!is.na(Age)) %>%
-  mutate(agecat = cut(Age, breaks = c(0, 15, 50, 150), 
-                      labels = c("Under 15", "15 to 50", "Over 50"),
-                      right = FALSE)) %>%
+  mutate(agecat = cut(Age, breaks = c(0, 14, 50, 150), 
+                      include.lowest = TRUE,
+                      labels = c("Under 15", "15 to 50", "Over 50"))) %>%
   group_by(Pclass, agecat, Sex) %>%
   summarize(N = n(),
             survivors = sum(Survived == 1),

@@ -1,5 +1,5 @@
-# After the previous question, you should have transformed the `titanic`
-# data to look like this:
+# After the previous question, you should have transformed the 
+# `titanic` data to look like this:
 #
 ##  Survived  Pclass   Age      Sex
 ##         0       3    22     male
@@ -9,9 +9,12 @@
 ##         0       3    35     male
 ##         0       1    54     male
 #
-# Use a `dplyr` or `tidyr` function to change the `titanic` dataset so that the 
-# first six lines look like this, where you've added a column called `agecat` 
-# with categories of "Under 15", "15 to 50", and "Over 50" for the passenger's Age: 
+# Now add a `dplyr` or `tidyr` function to the pipe chain in the 
+# code at the bottom of this script so that `titanic_2` data frame 
+# looks like this, with a new column added that specifies whether 
+# the person's age is under 15, from 15 to 50, or over 50
+# (this column should have a factor class, with factor levels ordered
+# by age-- "Under 15", "15 to 50", "Over 50"): 
 #
 ##   Survived Pclass   Age     Sex      agecat
 ##          0      3    22    male    15 to 50
@@ -21,8 +24,12 @@
 ##          0      3    35    male    15 to 50
 ##          0      1    54    male     Over 50
 #
-# When you are ready to move on, save the script and type submit(), or type 
-# reset() to reset the script to its original state.
+# I have already loaded the `titanic` data frame for you, so you 
+# can explore it and test out your code in the console.
+#
+# When you are ready submit your answer, save the script and type 
+# submit(), or type reset() to reset the script to its original 
+# state. 
 
 titanic_3 <- titanic %>% 
   select(Survived, Pclass, Age, Sex) %>%

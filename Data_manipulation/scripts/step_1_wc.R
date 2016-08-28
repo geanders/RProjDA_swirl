@@ -1,6 +1,6 @@
 # Add a `dplyr` or `tidyr` function to the pipe chain in the code 
 # at the bottom of this script to subset the `worldcup` dataset to 
-# four columns, so that the first four lines of the resulting data 
+# four columns, so that the first lines of the resulting data 
 # frame (`wc_1`) look like this: 
 #
 ##           Time   Passes  Tackles Saves
