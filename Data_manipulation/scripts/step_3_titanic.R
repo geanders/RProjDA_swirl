@@ -20,6 +20,9 @@
 ##          1      1    35  female    15 to 50
 ##          0      3    35    male    15 to 50
 ##          0      1    54    male     Over 50
+#
+# When you are ready to move on, save the script and type submit(), or type 
+# reset() to reset the script to its original state.
 
 titanic_3 <- titanic %>% 
   select(Survived, Pclass, Age, Sex) %>%

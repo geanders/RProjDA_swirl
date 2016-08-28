@@ -15,6 +15,9 @@
 ##   Passes     84.5
 ##  Tackles      4.2
 ##    Saves      0.7
+#
+# When you are ready to move on, save the script and type submit(), or type 
+# reset() to reset the script to its original state.
 
 wc_4 <- worldcup %>% 
   select(Time, Passes, Tackles, Saves) %>%

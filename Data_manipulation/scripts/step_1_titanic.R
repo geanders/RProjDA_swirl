@@ -8,5 +8,8 @@
 ##         1       1    35   female
 ##         0       3    35     male
 ##         0       3    NA     male
+#
+# When you are ready to move on, save the script and type submit(), or type 
+# reset() to reset the script to its original state.
 
 titanic_1 <- titanic %>% 
