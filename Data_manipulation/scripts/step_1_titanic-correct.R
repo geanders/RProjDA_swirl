@@ -1,5 +1,5 @@
-# Use a `dplyr` or `tidyr` function to change the `titanic` dataset so that the 
-# first six lines look like this: 
+# Use a `dplyr` or `tidyr` function to change the `titanic` 
+# dataset so that the first six lines look like this: 
 #
 ##  Survived  Pclass   Age      Sex
 ##         0       3    22     male

@@ -7,25 +7,65 @@
   Version: 2.4.2
 
 - Class: script
-  Output: "I just opened an R script for you. Follow the instructions in the script comments.\n\nWhen you are ready to move on, save the script and type submit(), or type reset() to reset the script to its original state."
+  Output: I just opened an R script for you, and I have loaded a 
+    dataset called `worldcup`. For this question, you will be adding a 
+    function from `dplyr` or `tidyr` to the pipe chain in the script.
+    Your goal is to re-create the example output shown in the 
+    comments of the script. When you are ready to submit your script,
+    save the script and type `submit()`, or type `reset()` to reset 
+    the script to its original state.
   AnswerTests: script_results_identical('wc_1')
-  Hint: Follow the directions in the script comments very carefully. If R gave you an error above, try to understand what it is telling you. If you get stuck, type reset() to start with a fresh script, then save the script and type submit() when you are ready.
+  Hint: Check the example output in the comments of the script I 
+    opened for you. Make sure you are selecting just the four 
+    columns shown in this example output. Try running your code in 
+    the console and printing out the result to determine whether 
+    it's successfully generating the desired final data 
+    frame before you submit it.
   Script: step_1_wc.R
   
 - Class: script
-  Output: "You will continue to build on the data cleaning from the last question. I opened an R script with you with the previous question completed. Follow the instructions in the script comments.\n\nWhen you are ready to move on, save the script and type submit(), or type reset() to reset the script to its original state."
+  Output: In this question, you will continue to build on the data 
+    cleaning you started in  the last question. I opened a new R 
+    script for you with the previous question completed. As a next 
+    step, you now need to reduce the data frame to show the mean of
+    each column selected in the previous step. To do this, add a 
+    function from `dplyr` or `tidyr` to the pipe chain in the script.
+    Your goal is to re-create the example output shown in the 
+    comments of the script. When you are ready to submit your script,
+    save the script and type `submit()`, or type `reset()` to reset 
+    the script to its original state.
   AnswerTests: script_results_identical('wc_2')
-  Hint: Follow the directions in the script comments very carefully. If R gave you an error above, try to understand what it is telling you. If you get stuck, type reset() to start with a fresh script, then save the script and type submit() when you are ready.
+  Hint: Check the example output in the comments of the script I 
+    opened for you. Make sure you are summarizing all four 
+    columns shown in this example output, and that your final output
+    is still in a data frame rather than a vector. Try running your 
+    code in the console and printing out the result to determine 
+    whether it's successfully generating the desired final data 
+    frame before you submit it.
   Script: step_2_wc.R
   
 - Class: script
-  Output: "You will continue to build on the data cleaning from the last question. I opened an R script with you with the previous question completed. Follow the instructions in the script comments.\n\nWhen you are ready to move on, save the script and type submit(), or type reset() to reset the script to its original state."
+  Output: In this question, you will again continue to build on the 
+    data cleaning you started in the last two questions. I opened a
+    new R script for you with the previous steps completed. As a next 
+    step, you now need to rearrange the data frame to have one column
+    with each variable's name and one column with mean values for 
+    each variable. To do this, add a function from `dplyr` or `tidyr`
+    to the pipe chain in the script. Your goal is to re-create the 
+    example output shown in the comments of the script. When you are 
+    ready to submit your script, save the script and type `submit()`,
+    or type `reset()` to reset the script to its original state.
   AnswerTests: script_results_identical('wc_3')
-  Hint: Follow the directions in the script comments very carefully. If R gave you an error above, try to understand what it is telling you. If you get stuck, type reset() to start with a fresh script, then save the script and type submit() when you are ready.
+  Hint: Check the example output in the comments of the script I 
+    opened for you. Make sure you are rearranging the data frame so 
+    that column names are converted into their own column. Try running 
+    your code in the console and printing out the result to determine 
+    whether it's successfully generating the desired final data 
+    frame before you submit it.
   Script: step_3_wc.R
   
 - Class: script
-  Output: "I just opened an R script for you. Follow the instructions in the script comments.\n\nWhen you are ready to move on, save the script and type submit(), or type reset() to reset the script to its original state."
+  Output: "I just opened an R script for you.  A data frame called `titanic` has been loaded into your R workspace. In this problem, you need to write code using `dplyr` or `tidyr` functions to subset that data frame to four specific columns. The script comments include an example of what the data should look like when you're done.\n\nWhen you are ready to move on, save the script and type submit(), or type reset() to reset the script to its original state."
   AnswerTests: script_results_identical('titanic_1')
   Hint: Follow the directions in the script comments very carefully. If R gave you an error above, try to understand what it is telling you. If you get stuck, type reset() to start with a fresh script, then save the script and type submit() when you are ready.
   Script: step_1_titanic.R
